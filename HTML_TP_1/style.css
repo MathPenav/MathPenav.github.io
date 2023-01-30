@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #2c2c2c;
 }
 
 body {
@@ -18,19 +18,19 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'visby-bold', sans-serif;
+  font-family: 'CircularStd-Medium', sans-serif;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'visby-bold', sans-serif;
+  font-family: 'CircularStd-Medium', sans-serif;
   color: #2a2a2a;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 8rem;
   text-align: center;
-  color: white;
+  color: #af8700;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -51,13 +51,13 @@ p, li {
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: white;
+  background-color: rgb(151, 151, 151);
   padding: 1%;
 }
 
 nav {
   height: 50px;
-  background-color: #ff80ff;
+  background-color: #af8700;
   display: flex;
   margin-bottom: 10px;
 }
@@ -103,7 +103,7 @@ input[type="search"] {
 input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #333;
+  background: #2c2c2c;
   border: 0;
   color: white;
 }
@@ -121,7 +121,7 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #ff80ff;
+  background-color: #af8700;
 }
 
 aside li {
